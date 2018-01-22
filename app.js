@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var cors = require('cors'); 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var tasks = require('./routes/Tasks');
+var tasks = require('./routes/tasks');
 var app = express();
 
 // view engine setup
